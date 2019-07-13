@@ -1,0 +1,123 @@
+/*
+================+/+/+/+/+/+/+/+/+/=================
+large
+================+/+/+/+/+/+/+/+/+/=================
+*/
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+/*
+================+/+/+/+/+/+/+/+/+/=================
+medium
+================+/+/+/+/+/+/+/+/+/=================
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+.offcanves-menu {
+    width: 35%;
+}
+.app-btn-area {
+    width: 65%;
+}
+}
+
+/*
+================+/+/+/+/+/+/+/+/+/=================
+tab
+================+/+/+/+/+/+/+/+/+/=================
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.logo {
+    text-align: center;
+}
+.offcanves-menu, .app-btn-area {
+    display: none;
+}
+.single-services{margin-top: 30px;}
+.add-content.text-right {
+    text-align: left;
+    margin-bottom: 30px;
+}
+.showcase-area-2 .showcase-content {
+    text-align: left;
+}
+.single-blog {
+    margin-bottom: 30px;
+}
+.add-content {
+    margin-right: 0px;
+    margin-top: 0px;
+}
+}
+/*
+================+/+/+/+/+/+/+/+/+/=================
+Mobile
+================+/+/+/+/+/+/+/+/+/=================
+*/
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+.logo {
+    text-align: center;
+}
+.main-menu li a {
+    padding: 10px 15px;
+}
+.hero-content {
+    padding: 60px 0;
+}
+.offcanves-menu, .app-btn-area {
+    display: none;
+}
+.absolate-faq-img {
+    display: none;
+}
+.single-services {
+    margin-bottom: 30px;
+}
+.absolate-mobile {
+    display: none;
+}
+.add-content.text-right {
+    text-align: left;
+    margin-bottom: 30px;
+}
+.showcase-area-2 .showcase-content {
+    text-align: left;
+}
+.showcase-area .showcase-content {
+    margin-left: 0px;
+}
+.app-img {
+    display: none;
+}
+.download-area {
+    padding: 50px 0;
+}
+.download-content {
+    height: 240px;
+}
+.absolate-show-bg, .absolate-show-bg-2{
+    width: 0;
+    height: 0;
+}
+.single-blog {
+    margin-bottom: 20px;
+}
+}
+
+/*
+================+/+/+/+/+/+/+/+/+/=================
+wid device
+================+/+/+/+/+/+/+/+/+/=================
+*/
+
+@media only screen and (max-width: 400px){
+.hero-btn-area .app-btn.no-bg {
+    padding: 9px 35px;
+    margin-top: 20px;
+    margin-left: 0;
+}
+}
